@@ -1,6 +1,6 @@
-# Contributing to Humbble
+# Contributing to Roomble
 
-Thank you for considering contributing to Humbble! We welcome all contributions, whether it's fixing bugs, adding new features, improving documentation, or helping others in the community.
+Thank you for considering contributing to Roomble! We welcome all contributions, whether it's fixing bugs, adding new features, improving documentation, or helping others in the community.
 
 ## How to Contribute
 
@@ -9,15 +9,15 @@ Thank you for considering contributing to Humbble! We welcome all contributions,
 1. Fork the repository on GitHub.
 2. Clone your forked repository locally:
    ```bash
-   git clone https://github.com/Prakashchandra-007/Humbble.git
+   git clone https://github.com/Prakashchandra-007/Roomble.git
    ```
 3. Navigate into the project directory:
    ```bash
-   cd Humbble
+   cd Roomble
    ```
 4. Add the upstream repository:
    ```bash
-   git remote add upstream https://github.com/Prakashchandra-007/Humbble.git
+   git remote add upstream https://github.com/Prakashchandra-007/Roomble.git
    ```
 
 ### 2. Create a New Branch
@@ -60,7 +60,7 @@ Please follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming an
 
 ## Reporting Issues
 
-If you find a bug or have a suggestion, please [open an issue](https://github.com/Prakashchandra-007/Humbble/issues) with a clear description.
+If you find a bug or have a suggestion, please [open an issue](https://github.com/Prakashchandra-007/Roomble/issues) with a clear description.
 
 ## Getting Help
 

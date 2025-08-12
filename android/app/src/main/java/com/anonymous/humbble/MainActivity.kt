@@ -1,4 +1,4 @@
-package com.anonymous.humbble
+package com.anonymous.roomble
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

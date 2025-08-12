@@ -1,23 +1,23 @@
 {
   "expo": {
-    "name": "humbble",
-    "slug": "humbble",
+    "name": "roomble",
+    "slug": "roomble",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "roombleapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.humbble"
+      "bundleIdentifier": "com.anonymous.roomble"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.humbble"
+      "package": "com.anonymous.roomble"
     },
     "web": {
       "bundler": "metro",
@@ -41,3 +41,4 @@
     }
   }
 }
+
