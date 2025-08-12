@@ -17,7 +17,7 @@ const people = () => {
   const button = () => <Octicons name="filter" size={24} color="black" />;
   return (
     <View style={styles.container}>
-      <Header headerTitle={"Humble"} button={button} />
+      <Header headerTitle={"ROOMBLE"} button={button} />
       <PeopleCard />
     </View>
   );

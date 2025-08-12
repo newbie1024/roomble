@@ -1,0 +1,47 @@
+.
+├── app
+│   ├── _layout.tsx
+│   ├── (tabs)
+│   ├── +not-found.tsx
+│   └── charscreenf.tsx
+├── app.json
+├── assets
+│   ├── fonts
+│   └── images
+├── CODE_OF_CONDUCT.md
+├── components
+│   ├── __tests__
+│   ├── Avatar.tsx
+│   ├── Button.jsx
+│   ├── Collapsible.tsx
+│   ├── ExternalLink.tsx
+│   ├── HapticTab.tsx
+│   ├── Header.tsx
+│   ├── HelloWave.tsx
+│   ├── ParallaxScrollView.tsx
+│   ├── PeopleCard.tsx
+│   ├── ThemedText.tsx
+│   ├── ThemedView.tsx
+│   ├── ui
+│   └── UserCard.tsx
+├── constants
+│   └── Colors.ts
+├── CONTRIBUTING.md
+├── DB
+│   └── userDB.tsx
+├── dir-tree.txt
+├── expo-env.d.ts
+├── hooks
+│   ├── useColorScheme.ts
+│   ├── useColorScheme.web.ts
+│   └── useThemeColor.ts
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── README.md
+├── scripts
+│   └── reset-project.js
+├── SECURITY.md
+└── tsconfig.json
+
+13 directories, 32 files
