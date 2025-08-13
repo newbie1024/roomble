@@ -11,7 +11,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
-// Read config from app.json -> expo.extra.firebase (we'll add real keys later)
+// Read config from app.json -> expo.extra.firebase
 const cfg = (Constants.expoConfig?.extra as any)?.firebase ?? {};
 if (!cfg || !cfg.apiKey) {
   console.warn(
@@ -22,7 +22,7 @@ if (!cfg || !cfg.apiKey) {
 // Initialize the app (idempotent)
 const app = getApps().length ? getApp() : initializeApp(cfg);
 
-// Initialize Auth for React Native with persistent storage.
+// Initialize Auth for RN with persistent storage.
 // initializeAuth throws if it's already been created, so fall back to getAuth.
 let auth;
 try {
