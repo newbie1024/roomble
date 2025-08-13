@@ -1,47 +1,8 @@
-.
-├── app
-│   ├── _layout.tsx
-│   ├── (tabs)
-│   ├── +not-found.tsx
-│   └── charscreenf.tsx
-├── app.json
-├── assets
-│   ├── fonts
-│   └── images
-├── CODE_OF_CONDUCT.md
-├── components
-│   ├── __tests__
-│   ├── Avatar.tsx
-│   ├── Button.jsx
-│   ├── Collapsible.tsx
-│   ├── ExternalLink.tsx
-│   ├── HapticTab.tsx
-│   ├── Header.tsx
-│   ├── HelloWave.tsx
-│   ├── ParallaxScrollView.tsx
-│   ├── PeopleCard.tsx
-│   ├── ThemedText.tsx
-│   ├── ThemedView.tsx
-│   ├── ui
-│   └── UserCard.tsx
-├── constants
-│   └── Colors.ts
-├── CONTRIBUTING.md
-├── DB
-│   └── userDB.tsx
-├── dir-tree.txt
-├── expo-env.d.ts
-├── hooks
-│   ├── useColorScheme.ts
-│   ├── useColorScheme.web.ts
-│   └── useThemeColor.ts
-├── LICENSE
-├── package-lock.json
-├── package.json
-├── README.md
-├── scripts
-│   └── reset-project.js
-├── SECURITY.md
-└── tsconfig.json
-
-13 directories, 32 files
+cat > .env.local <<'EOF'
+EXPO_PUBLIC_FIREBASE_API_KEY=AIzaSyBI8jgOJ401-4ZbTpR1NjUT2YHqFnrJ28g
+EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=roomble-e736c.firebaseapp.com
+EXPO_PUBLIC_FIREBASE_PROJECT_ID=roomble-e736c
+EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=roomble-e736c.firebasestorage.app
+EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=767349616994
+EXPO_PUBLIC_FIREBASE_APP_ID=1:767349616994:web:8d5c15bcdbd476f90ebc3b
+EOF
